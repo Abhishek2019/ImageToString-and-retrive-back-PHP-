@@ -9,7 +9,6 @@ echo($imgData);
 
 echo "<BR>";
 echo "<BR>";
-echo "<BR>";
 
 // Format the image SRC:  data:{mime};base64,{data};
 $src = 'data: '.mime_content_type($img_file).';base64,'.$imgData;
